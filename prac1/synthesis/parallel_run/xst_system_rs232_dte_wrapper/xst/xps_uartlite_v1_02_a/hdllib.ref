@@ -1,0 +1,10 @@
+AR xps_uartlite imp /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/xps_uartlite.vhd sub00/vhpl09 1392730346
+AR uartlite_rx imp /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_rx.vhd sub00/vhpl03 1392730336
+EN uartlite_core NULL /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_core.vhd sub00/vhpl06 1392730343
+EN xps_uartlite NULL /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/xps_uartlite.vhd sub00/vhpl08 1392730345
+AR uartlite_tx imp /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_tx.vhd sub00/vhpl05 1392730338
+AR uartlite_core imp /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_core.vhd sub00/vhpl07 1392730344
+AR baudrate imp /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/baudrate.vhd sub00/vhpl01 1392730334
+EN uartlite_rx NULL /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_rx.vhd sub00/vhpl02 1392730335
+EN uartlite_tx NULL /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_tx.vhd sub00/vhpl04 1392730337
+EN baudrate NULL /opt/york/cs/net/xilinx-design-suite-14.3-x86_64-1/14.3/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/baudrate.vhd sub00/vhpl00 1392730333

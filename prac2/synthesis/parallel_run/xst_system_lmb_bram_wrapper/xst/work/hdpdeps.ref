@@ -1,0 +1,9 @@
+V3 6
+FL /usr/userfs/d/drm511/embs/spr/prac2/synthesis/parallel_run/hdl/system_lmb_bram_wrapper.vhd 2014/02/18.13:49:07 P.40xd
+EN work/system_lmb_bram_wrapper 1392731414 \
+      FL /usr/userfs/d/drm511/embs/spr/prac2/synthesis/parallel_run/hdl/system_lmb_bram_wrapper.vhd \
+      PB ieee/std_logic_1164 1350103243 LB UNISIM PH unisim/VCOMPONENTS 1350103252 \
+      LB lmb_bram_elaborate_v1_00_a
+AR work/system_lmb_bram_wrapper/STRUCTURE 1392731415 \
+      FL /usr/userfs/d/drm511/embs/spr/prac2/synthesis/parallel_run/hdl/system_lmb_bram_wrapper.vhd \
+      EN work/system_lmb_bram_wrapper 1392731414 CP lmb_bram_elaborate

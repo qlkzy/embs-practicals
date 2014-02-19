@@ -1,0 +1,7 @@
+INFILE=/usr/userfs/d/drm511/embs/spr/prac2/implementation/system.ncd
+OUTFILE=/usr/userfs/d/drm511/embs/spr/prac2/implementation/system.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/usr/userfs/d/drm511/embs/spr/prac2/implementation
+LICENSE=ISE
+USER_INFO=__174131719_174131720_174418774

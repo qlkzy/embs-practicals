@@ -1,0 +1,45 @@
+V3 27
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/count_module.vhd 2012/10/02.11:16:33 P.40xd
+EN xps_timer_v1_02_a/count_module 1392730602 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/count_module.vhd \
+      PB ieee/std_logic_1164 1350103243 LB unisim PH unisim/VCOMPONENTS 1350103252 \
+      LB proc_common_v3_00_a
+AR xps_timer_v1_02_a/count_module/imp 1392730603 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/count_module.vhd \
+      EN xps_timer_v1_02_a/count_module 1392730602 CP FDRE \
+      CP proc_common_v3_00_a/counter_f
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/tc_core.vhd 2012/10/02.11:16:33 P.40xd
+EN xps_timer_v1_02_a/tc_core 1392730610 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/tc_core.vhd \
+      PB ieee/std_logic_1164 1350103243 LB xps_timer_v1_02_a \
+      LB proc_common_v3_00_a LB unisim PH unisim/VCOMPONENTS 1350103252 \
+      PH xps_timer_v1_02_a/TC_Types 1392730599 PB proc_common_v3_00_a/ipif_pkg 1392730598
+AR xps_timer_v1_02_a/tc_core/imp 1392730611 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/tc_core.vhd \
+      EN xps_timer_v1_02_a/tc_core 1392730610 CP proc_common_v3_00_a/mux_onehot_f \
+      CP xps_timer_v1_02_a/count_module CP xps_timer_v1_02_a/timer_control CP FDRS
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/tc_types.vhd 2012/10/02.11:16:33 P.40xd
+PH xps_timer_v1_02_a/TC_Types 1392730599 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/tc_types.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/timer_control.vhd 2012/10/02.11:16:33 P.40xd
+EN xps_timer_v1_02_a/timer_control 1392730604 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/timer_control.vhd \
+      PB ieee/std_logic_1164 1350103243 LB proc_common_v3_00_a LB unisim \
+      PH unisim/VCOMPONENTS 1350103252 LB xps_timer_v1_02_a \
+      PB proc_common_v3_00_a/ipif_pkg 1392730598 \
+      PB proc_common_v3_00_a/proc_common_pkg 1392730483 \
+      PH xps_timer_v1_02_a/TC_Types 1392730599
+AR xps_timer_v1_02_a/timer_control/imp 1392730605 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/timer_control.vhd \
+      EN xps_timer_v1_02_a/timer_control 1392730604 CP FDRSE
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/xps_timer.vhd 2012/10/02.11:16:33 P.40xd
+EN xps_timer_v1_02_a/xps_timer 1392730612 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/xps_timer.vhd \
+      PB ieee/std_logic_1164 1350103243 LB xps_timer_v1_02_a \
+      LB plbv46_slave_single_v1_01_a LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/ipif_pkg 1392730598
+AR xps_timer_v1_02_a/xps_timer/imp 1392730613 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/hdl/vhdl/xps_timer.vhd \
+      EN xps_timer_v1_02_a/xps_timer 1392730612 CP xps_timer_v1_02_a/tc_core \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single
